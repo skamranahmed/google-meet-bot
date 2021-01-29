@@ -14,7 +14,6 @@ class GoogleMeetBot():
         chromeOptions.add_argument("--disable-gpu")
         chromeOptions.add_argument("--disable-extensions")
         chromeOptions.add_argument("--window-size=800,800")
-        #  chromeOptions.add_argument("--window-size=1920,1080")
         #  to make the bot headless, uncomment the below line
         # chromeOptions.add_argument('--headless')
         chromeOptions.add_argument("--incognito")
